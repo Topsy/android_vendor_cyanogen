@@ -22,7 +22,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := sholes-open
 PRODUCT_MODEL := Droid
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=Alldroid 1.1 ESE81 BUILD_VERSION_INCREMENTAL=eng.ADCTeam.00006 BUILD_USER=ADCTeam PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
+PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=ESE81 PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
 
 PRODUCT_COPY_FILES +=  \
        vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip
@@ -30,6 +30,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES += out/target/product/sholes-open/obj/APPS/Launcher_intermediates/package.apk:/system/app/Launcher.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Built with Cyanogen Build Setup
+        ro.modversion=CyanogenMod-5.0.5.7-Droid
         
 include vendor/motorola/sholes-open/device_sholes.mk
