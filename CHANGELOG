@@ -1,5 +1,11 @@
 CHANGELOG
 
+---- 5.0.6-Droid
+* Fixed MMS Videos (PDR447, slayher, DroidMod all had a hand in this)
+* Fixups to 4/5 column launcher
+* Fixed ##program menu
+* Fix fstab bug (DroidMod)
+
 ---- 5.0.6-N1
 * Merged AOSP from Google as of 3/31/2010
 * Ability to move installed applications between internal storage and SD (from Chris Soyars)
@@ -26,6 +32,10 @@ CHANGELOG
 * Allow Bluetooth in airplane mode (needs settings db update if installing w/o wipe)
 * Added some sounds back
 * Added trackball-unlock option from Kmobs (this conflicts with the music skip option)
+* Fix for the red/pink camera tint bug!! (from HTC/Google)
+* Number keys work on the vk in the Terminal app again (from Jack Palevich's Google Code project)
+* Added 5-minute screen timeout option
+* Potential fixes in build.prop to improve 3G speed on N1 - YMMV.
  
 ---- 5.0.5.7-Droid
 * Fix Launcher2.
@@ -142,7 +152,7 @@ CHANGELOG
 * Fixed wifi disable bug
 * New boot animation by Prash
 * Merged ERE36B changes
-* Updated fonts with additional glyphs (from CM-4.2)
+* Updated fonts with additional glyphs (from CM-4.2, from Noah Friedman)
 * Updated Phone mod from Cytown
 * Various minor bugfixes
 * "Stable" (no pony for you, though)
