@@ -22,7 +22,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := sholes-open
 PRODUCT_MODEL := Droid
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=ESE81 PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
+PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=Alldroid 1.1 BUILD_VERSION_INCREMENTAL=eng.ADCTeam.00006 BUILD_USER=ADCTeam PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
 
 PRODUCT_COPY_FILES +=  \
        vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip
@@ -34,7 +34,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-$(shell date +%m%d%Y)-NIGHTLY-Droid
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-5.0.6-Droid
+        ro.modversion=Built with Cyanogen Build Setup
 endif
 
 include vendor/motorola/sholes-open/device_sholes.mk
