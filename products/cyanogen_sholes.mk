@@ -27,8 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=Alldroid 1.1 BUI
 PRODUCT_COPY_FILES +=  \
        vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip
     
-PRODUCT_COPY_FILES += out/target/product/sholes-open/obj/APPS/Launcher_intermediates/package.apk:/system/app/Launcher.apk
-
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=CyanogenMod-$(shell date +%m%d%Y)-NIGHTLY-Droid
