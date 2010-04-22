@@ -25,8 +25,11 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=ESE81 BUILD_DISPLAY_ID=Alldroid-1.1 BUILD_VERSION_INCREMENTAL=eng.ADCTeam.00006 BUILD_USER=ADCTeam PRODUCT_NAME=voles TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.1-update1/ESE81/29593:user/release-keys PRODUCT_BRAND=verizon
 
 PRODUCT_COPY_FILES +=  \
-       vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip
-    
+       vendor/cyanogen/prebuilt/sholes-open/media/bootanimation.zip:system/media/bootanimation.zip \
+	vendor/cyanogen/prebuilt/sholes-open/bin/recboot:system/bin/recboot \
+	vendor/cyanogen/prebuilt/sholes-open/bin/rosystem:system/bin/rosystem \
+	vendor/cyanogen/prebuilt/sholes-open/bin/rwsystem:system/bin/rwsystem
+
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=Built_with_Cyanogen_Build_Setup
 
